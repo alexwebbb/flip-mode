@@ -26,4 +26,9 @@ public class ForceTest : MonoBehaviour
         }
 
     }
+
+    private void Reset()
+    {
+        
+    }
 }
