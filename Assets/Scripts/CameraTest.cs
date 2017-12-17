@@ -6,10 +6,6 @@ public class CameraTest : MonoBehaviour {
 
     public Transform watchObject;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
 	
 	// Update is called once per frame
 	void Update () {
