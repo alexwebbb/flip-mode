@@ -9,8 +9,9 @@ public class Program : MonoBehaviour {
     // TODO rename script???
 
     public bool debugMode = false;
-    public bool resetInitialized = false;
     public List<GameObject> resettableItems = new List<GameObject>();
+
+    bool resetInitialized = false;
 
     List<Transform> transformQueue = new List<Transform>();
     List<Vector3> originalVector = new List<Vector3>();
